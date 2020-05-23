@@ -3,3 +3,50 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.App {
+  color: var(--color);
+}
+
+.charactersPageWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 4vh;
+  align-items: center;
+}
+
+header {
+  height: 20vh;
+  border: 2px solid var(--color);
+  border-radius: 3px;
+}
+
+header img {
+  height: 100%;
+  display: block;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+  height: 72vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  padding: 2vh 0;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.charactersListWrapper {
+  flex-grow: 1;
+  background-color: red;
+}
+
+footer {
+  height: 6vh;
+  background-color: white;
+}

@@ -9,7 +9,8 @@ const API_END_POINT = "https://swapi.dev/api/people/";
 class App extends Component {
   state = {
     data: null,
-    numberOfPages: null,
+    firstDataForBuildPagination: null,
+    error: null,
   };
 
   handleButtonsForPageChange = (pageId) => {
@@ -20,6 +21,10 @@ class App extends Component {
     });
   };
 
+  showError = (error) => {
+    console.log(error);
+  };
+
   fetchData = (API) => {
     return fetch(API)
       .then((response) => {
@@ -28,23 +33,21 @@ class App extends Component {
         }
         throw Error(response.status);
       })
-      .then((response) => response.json());
-    // .catch(error => showError(error));
+      .then((response) => response.json())
+      .catch((error) => this.showError(error));
   };
 
   componentDidMount() {
-    console.log("dane");
     this.fetchData(API_END_POINT).then((data) => {
-      const numberOfPages = Math.ceil(data.count / data.results.length);
+      // const numberOfPages = Math.ceil(data.count / data.results.length);
       this.setState({
         data,
-        numberOfPages,
+        firstDataForBuildPagination: data,
       });
     });
   }
 
   render() {
-    console.log(2);
     return (
       <Router>
         <div className="App">
@@ -53,7 +56,7 @@ class App extends Component {
             exact
             component={() => (
               <CharactersPage
-                numberOfPages={this.state.numberOfPages}
+                firstData={this.state.firstDataForBuildPagination}
                 data={this.state.data}
                 click={this.handleButtonsForPageChange}
               />

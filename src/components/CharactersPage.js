@@ -23,9 +23,9 @@ class CharactersPage extends Component {
             )}
           </section>
           <footer className="paginationWrapper">
-            {this.props.numberOfPages ? (
+            {this.props.data ? (
               <BuildPagination
-                numberOfPages={this.props.numberOfPages}
+                firstData={this.props.firstData}
                 click={this.props.click}
               />
             ) : (

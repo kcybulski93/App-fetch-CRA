@@ -14,8 +14,12 @@ class BuildPagination extends Component {
   };
 
   render() {
+    console.log(this.props.firstData);
+    const numberOfPages = Math.ceil(
+      this.props.firstData.count / this.props.firstData.results.length
+    );
     const pageButton = [];
-    for (let i = 1; i <= this.props.numberOfPages; i++) {
+    for (let i = 1; i <= numberOfPages; i++) {
       pageButton.push(
         <button
           key={i}

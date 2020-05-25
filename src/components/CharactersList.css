@@ -1,21 +1,17 @@
-.charactersNavigation {
-  width: 100%;
-}
-
 .characterBlock {
-  height: 5.6vh;
+  height: 6vh;
+  line-height: 6vh;
 }
 
 .characterName {
   display: block;
-  line-height: 5.6vh;
   text-decoration: none;
-  color: var(--color);
   font-size: 1.4rem;
+  color: var(--color);
+  padding-left: 72px;
 }
 
-i {
+#i {
+  padding-right: 3px;
   vertical-align: 1px;
-  margin-right: 2px;
-  margin-left: 18%;
 }

@@ -18,14 +18,14 @@ const BuildCharactersList = (props) => {
             },
           }}
         >
-          <i className="icon-star-2" id="dupa"></i>
+          <i className="icon-star-2" id="i"></i>
           {character.name}
         </Link>
       </div>
     );
   });
 
-  return <nav className="charactersNavigation">{charactersList}</nav>;
+  return <nav>{charactersList}</nav>;
 };
 
 export default BuildCharactersList;

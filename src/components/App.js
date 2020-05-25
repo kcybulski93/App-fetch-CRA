@@ -87,7 +87,7 @@ class App extends Component {
   render() {
     const { errorMessage, numberOfPages, data, selectedButton } = this.state;
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Switch>
             <Route
@@ -95,10 +95,8 @@ class App extends Component {
               exact
               component={() =>
                 errorMessage ? (
-                  <div className="App">
-                    <div className="errorMassage">
-                      <h2>{errorMessage}</h2>
-                    </div>
+                  <div className="errorMassage">
+                    <h2>{errorMessage}</h2>
                   </div>
                 ) : (
                   <CharactersPage

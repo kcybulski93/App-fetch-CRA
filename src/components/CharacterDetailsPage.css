@@ -1,27 +1,36 @@
 .detailsWrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -60%);
   display: flex;
   font-size: 1.4rem;
   flex-wrap: wrap;
-  width: 280px;
-  margin: 8vh auto;
+  width: 300px;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .text {
+  line-height: 40px;
   width: 50%;
-  padding: 10px 0px 10px 40px;
+  padding-left: 40px;
 }
 
 .data {
   width: 50%;
-  padding: 10px 0px 10px 20px;
+  padding-left: 10px;
 }
 
 .returnWrapper {
+  position: fixed;
+  right: 50%;
+  bottom: 60px;
+  transform: translateX(50%);
   width: 100%;
   text-align: center;
-  margin: 18px auto;
-  height: 10vw;
-  width: 10vw;
+  height: 40px;
+  width: 40px;
   background-color: black;
   border: 2px solid var(--color);
   border-radius: 5px;
@@ -32,6 +41,6 @@
 
 #return {
   margin: 0;
-  line-height: calc(10vw - 4px);
+  line-height: calc(40px - 4px);
   font-size: 1.4rem;
 }

@@ -9,12 +9,16 @@ const CharactersPage = (props) => {
   return (
     <div className="charactersPageWrapper">
       <header>
-        <img src={img} alt="Star Wars Logo" />
+        <div className="imgWrapper">
+          <img src={img} alt="Star Wars Logo" />
+        </div>
       </header>
       <main>
-        <h1>Characters</h1>
-        <section className="charactersListWrapper">
-          {data ? <CharacterList data={data} /> : data}
+        <h1 className="textCharacters">Characters</h1>
+        <section>
+          <div className="charactersListWrapper">
+            {data ? <CharacterList data={data} /> : data}
+          </div>
         </section>
         <footer className="paginationWrapper">
           {data ? (

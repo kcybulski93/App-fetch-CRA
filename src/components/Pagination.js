@@ -17,7 +17,7 @@ const Pagination = (props) => {
     );
   }
 
-  return <div className="buttonsWrapper">{pageButton}</div>;
+  return pageButton;
 };
 
 export default Pagination;

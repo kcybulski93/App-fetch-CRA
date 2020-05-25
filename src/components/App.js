@@ -10,7 +10,8 @@ class App extends Component {
   state = {
     data: null,
     firstDataForBuildPagination: null,
-    error: null,
+    error: false,
+    selectedButton: 1,
   };
 
   handleButtonsForPageChange = (pageId) => {
@@ -19,10 +20,38 @@ class App extends Component {
         data,
       });
     });
+    this.setState({
+      selectedButton: pageId,
+    });
   };
 
   showError = (error) => {
-    console.log(error);
+    let errorMessage;
+
+    switch (error.toString()) {
+      case "Error: 404":
+        errorMessage = "Error: 404:File not found";
+        break;
+      case "Error: 403":
+        errorMessage = "Forbidden";
+        break;
+      case "Error: 500":
+        errorMessage = "Internal Server Error";
+        break;
+      case "Error: 503":
+        errorMessage = "Service Unavailable";
+        break;
+      case "Error: 504":
+        errorMessage = "Gateway Timeout";
+        break;
+      default:
+        errorMessage = "Something went wrong";
+        break;
+    }
+
+    this.setState({
+      error: errorMessage,
+    });
   };
 
   fetchData = (API) => {
@@ -39,7 +68,6 @@ class App extends Component {
 
   componentDidMount() {
     this.fetchData(API_END_POINT).then((data) => {
-      // const numberOfPages = Math.ceil(data.count / data.results.length);
       this.setState({
         data,
         firstDataForBuildPagination: data,
@@ -48,7 +76,11 @@ class App extends Component {
   }
 
   render() {
-    return (
+    return this.state.error ? (
+      <div className="App">
+        <div className="error">{this.state.error}</div>
+      </div>
+    ) : (
       <Router>
         <div className="App">
           <Route
@@ -59,6 +91,7 @@ class App extends Component {
                 firstData={this.state.firstDataForBuildPagination}
                 data={this.state.data}
                 click={this.handleButtonsForPageChange}
+                selectedButton={this.state.selectedButton}
               />
             )}
           />

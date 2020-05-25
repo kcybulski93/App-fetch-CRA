@@ -27,6 +27,7 @@ class CharactersPage extends Component {
               <BuildPagination
                 firstData={this.props.firstData}
                 click={this.props.click}
+                selectedButton={this.props.selectedButton}
               />
             ) : (
               this.props.data

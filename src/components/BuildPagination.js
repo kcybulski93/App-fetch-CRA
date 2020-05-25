@@ -2,19 +2,9 @@ import React, { Component } from "react";
 import "./BuildPagination.css";
 
 class BuildPagination extends Component {
-  state = {
-    selectedButton: null,
-  };
-
-  buttonSelected = (selectedButton) => (e) => {
-    this.setState({
-      selectedButton,
-    });
-    this.props.click(selectedButton);
-  };
+  state = {};
 
   render() {
-    console.log(this.props.firstData);
     const numberOfPages = Math.ceil(
       this.props.firstData.count / this.props.firstData.results.length
     );
@@ -23,9 +13,9 @@ class BuildPagination extends Component {
       pageButton.push(
         <button
           key={i}
-          className={i === this.state.selectedButton ? "selected" : ""}
+          className={i === this.props.selectedButton ? "selected" : ""}
           type="button"
-          onClick={this.buttonSelected(i)}
+          onClick={this.props.click.bind(this, i)}
         >
           {i}
         </button>

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import img from "../img/logo.png";
 import BuildCharacterList from "./BuildCharactersList";
 import BuildPagination from "./BuildPagination";
+import "./CharactersPage.css";
 
 class CharactersPage extends Component {
   state = {};

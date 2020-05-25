@@ -1,0 +1,48 @@
+.charactersPageWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 4vh;
+  align-items: center;
+}
+
+header {
+  height: 20vh;
+  border: 2px solid var(--color);
+  border-radius: 3px;
+}
+
+header img {
+  height: 100%;
+  display: block;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+  height: 72vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  padding: 2vh 0;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.charactersListWrapper {
+  flex-grow: 1;
+  text-align: left;
+  display: flex;
+  font-style: italic;
+  width: 280px;
+  margin: 0px auto;
+}
+
+.paginationWrapper {
+  display: flex;
+  width: 92%;
+  height: 6vh;
+}

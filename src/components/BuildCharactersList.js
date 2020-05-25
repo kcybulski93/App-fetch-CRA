@@ -8,8 +8,9 @@ const BuildCharactersList = (props) => {
     const splitURL = character.url.split("/");
     const characterId = splitURL[splitURL.length - 2];
     return (
-      <li key={characterId} className="character">
+      <div key={characterId} className="characterBlock">
         <Link
+          className="characterName"
           to={{
             pathname: "/character-details",
             state: {
@@ -17,17 +18,14 @@ const BuildCharactersList = (props) => {
             },
           }}
         >
+          <i className="icon-star-2" id="dupa"></i>
           {character.name}
         </Link>
-      </li>
+      </div>
     );
   });
 
-  return (
-    <nav>
-      <ul>{charactersList}</ul>
-    </nav>
-  );
+  return <nav className="charactersNavigation">{charactersList}</nav>;
 };
 
 export default BuildCharactersList;

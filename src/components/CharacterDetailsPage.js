@@ -1,15 +1,34 @@
 import React, { Component } from "react";
+import "./CharacterDetailsPage.css";
 
 class CharacterDetailsPage extends Component {
+  state = {
+    data: {},
+  };
   componentDidMount() {
     const { characterId } = this.props.location.state;
     const url = `https://swapi.dev/api/people/${characterId}/`;
     this.props.fechData(url).then((data) => {
-      console.log(data);
+      this.setState({
+        data,
+      });
     });
   }
+
   render() {
-    return "Dupa";
+    console.log(this.state.data);
+    return (
+      <div className="detailsWrapper">
+        <div className="text">Name:</div><div className="data">{this.state.data.name}</div>
+        <div className="text">Gender:</div><div className="data">{this.state.data.gender}</div>
+        <div className="text">Height:</div><div className="data">{this.state.data.height}</div>
+        <div className="text">Mass:</div><div className="data">{this.state.data.mass}</div>
+        <div className="text">Birth year:</div><div className="data">{this.state.data.birth_year}</div>
+        <div className="text">Hair color:</div><div className="data">{this.state.data.hair_color}</div>
+        <div className="text">Skin color:</div><div className="data">{this.state.data.skin_color}</div>
+        <div className="text">Eye color:</div><div className="data">{this.state.data.eye_color}</div>
+      </div>
+    );
   }
 }
 

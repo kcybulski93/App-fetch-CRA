@@ -33,6 +33,7 @@ class App extends Component {
   };
 
   componentDidMount() {
+    console.log("dane");
     this.fetchData(API_END_POINT).then((data) => {
       const numberOfPages = Math.ceil(data.count / data.results.length);
       this.setState({
@@ -43,6 +44,7 @@ class App extends Component {
   }
 
   render() {
+    console.log(2);
     return (
       <Router>
         <div className="App">

@@ -16,3 +16,7 @@ button {
   font-size: 1.2rem;
   font-weight: 700;
 }
+
+.selected {
+  color: rgba(248, 28, 28, 0.842);
+}

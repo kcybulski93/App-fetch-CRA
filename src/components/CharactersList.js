@@ -1,5 +1,5 @@
 import React from "react";
-import "./BuildCharactersList.css";
+import "./CharactersList.css";
 import { Link } from "react-router-dom";
 
 const BuildCharactersList = (props) => {

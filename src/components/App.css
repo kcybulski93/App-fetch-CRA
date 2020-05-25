@@ -319,10 +319,6 @@
     cursor: pointer;
   }
 
-  .selected {
-    color: rgba(248, 28, 28, 0.842);
-  }
-
   html .characterBlock a:hover {
     color: white;
   }

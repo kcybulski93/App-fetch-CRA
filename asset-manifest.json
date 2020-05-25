@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/App-fetch-CRA/static/css/main.00503ea1.chunk.css",
-    "main.js": "/App-fetch-CRA/static/js/main.52450ce4.chunk.js",
-    "main.js.map": "/App-fetch-CRA/static/js/main.52450ce4.chunk.js.map",
+    "main.js": "/App-fetch-CRA/static/js/main.59ad966b.chunk.js",
+    "main.js.map": "/App-fetch-CRA/static/js/main.59ad966b.chunk.js.map",
     "runtime-main.js": "/App-fetch-CRA/static/js/runtime-main.18c7f1bf.js",
     "runtime-main.js.map": "/App-fetch-CRA/static/js/runtime-main.18c7f1bf.js.map",
     "static/js/2.d9cc7207.chunk.js": "/App-fetch-CRA/static/js/2.d9cc7207.chunk.js",
     "static/js/2.d9cc7207.chunk.js.map": "/App-fetch-CRA/static/js/2.d9cc7207.chunk.js.map",
     "index.html": "/App-fetch-CRA/index.html",
-    "precache-manifest.208473f58eaae97bf1d08af971784429.js": "/App-fetch-CRA/precache-manifest.208473f58eaae97bf1d08af971784429.js",
+    "precache-manifest.3309a59c0dc23abcdb3e18830d599d52.js": "/App-fetch-CRA/precache-manifest.3309a59c0dc23abcdb3e18830d599d52.js",
     "service-worker.js": "/App-fetch-CRA/service-worker.js",
     "static/css/main.00503ea1.chunk.css.map": "/App-fetch-CRA/static/css/main.00503ea1.chunk.css.map",
     "static/js/2.d9cc7207.chunk.js.LICENSE.txt": "/App-fetch-CRA/static/js/2.d9cc7207.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.18c7f1bf.js",
     "static/js/2.d9cc7207.chunk.js",
     "static/css/main.00503ea1.chunk.css",
-    "static/js/main.52450ce4.chunk.js"
+    "static/js/main.59ad966b.chunk.js"
   ]
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d03d23d2cea75e9dd553e7bc903f4b4d",
+    "revision": "4e4dfd308396a12a3915b2f417e3dae9",
     "url": "/App-fetch-CRA/index.html"
   },
   {
-    "revision": "4d8163e3ae9028b650ea",
-    "url": "/App-fetch-CRA/static/css/main.00503ea1.chunk.css"
+    "revision": "85efa32196dfc2affec1",
+    "url": "/App-fetch-CRA/static/css/main.750db44e.chunk.css"
   },
   {
     "revision": "63f6386db5c92e1b5d7e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/App-fetch-CRA/static/js/2.d9cc7207.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4d8163e3ae9028b650ea",
-    "url": "/App-fetch-CRA/static/js/main.59ad966b.chunk.js"
+    "revision": "85efa32196dfc2affec1",
+    "url": "/App-fetch-CRA/static/js/main.466d0864.chunk.js"
   },
   {
     "revision": "bd84528a2050671ec477",

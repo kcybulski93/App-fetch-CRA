@@ -127,7 +127,7 @@ class App extends Component {
           <img src={star} alt="star" className="star5" />
           <img src={star} alt="star" className="star6" />
           <img src={star} alt="star" className="star7" />
-          <img src={ship1} alt="star wars ship 1" className="ship1" />
+          <img src={ship1} alt="star wars ship 1" className="ship1" id="dd" />
           <img src={ship2} alt="star wars ship 2" className="ship2" />
           <img src={ship3} alt="star wars ship 3" className="ship3" />
         </div>

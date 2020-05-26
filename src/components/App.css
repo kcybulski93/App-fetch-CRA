@@ -43,6 +43,10 @@
     width: 340px;
   }
 
+  html .textCharacters {
+    padding-top: 7px;
+  }
+
   html .characterName {
     padding-left: 74px;
   }
@@ -123,6 +127,10 @@
 
   html .paginationWrapper {
     width: 600px;
+  }
+
+  html .textCharacters {
+    padding-top: 10px;
   }
 
   html .characterName {

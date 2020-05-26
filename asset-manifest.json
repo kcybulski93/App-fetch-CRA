@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/App-fetch-CRA/static/css/main.750db44e.chunk.css",
-    "main.js": "/App-fetch-CRA/static/js/main.466d0864.chunk.js",
-    "main.js.map": "/App-fetch-CRA/static/js/main.466d0864.chunk.js.map",
+    "main.css": "/App-fetch-CRA/static/css/main.c03bb1b5.chunk.css",
+    "main.js": "/App-fetch-CRA/static/js/main.2242a36a.chunk.js",
+    "main.js.map": "/App-fetch-CRA/static/js/main.2242a36a.chunk.js.map",
     "runtime-main.js": "/App-fetch-CRA/static/js/runtime-main.18c7f1bf.js",
     "runtime-main.js.map": "/App-fetch-CRA/static/js/runtime-main.18c7f1bf.js.map",
-    "static/js/2.d9cc7207.chunk.js": "/App-fetch-CRA/static/js/2.d9cc7207.chunk.js",
-    "static/js/2.d9cc7207.chunk.js.map": "/App-fetch-CRA/static/js/2.d9cc7207.chunk.js.map",
+    "static/js/2.b46c92da.chunk.js": "/App-fetch-CRA/static/js/2.b46c92da.chunk.js",
+    "static/js/2.b46c92da.chunk.js.map": "/App-fetch-CRA/static/js/2.b46c92da.chunk.js.map",
     "index.html": "/App-fetch-CRA/index.html",
-    "precache-manifest.4056848ae5089adfb4250ade574733d7.js": "/App-fetch-CRA/precache-manifest.4056848ae5089adfb4250ade574733d7.js",
+    "precache-manifest.6954e92edd78a191aed505d0444201d3.js": "/App-fetch-CRA/precache-manifest.6954e92edd78a191aed505d0444201d3.js",
     "service-worker.js": "/App-fetch-CRA/service-worker.js",
-    "static/css/main.750db44e.chunk.css.map": "/App-fetch-CRA/static/css/main.750db44e.chunk.css.map",
-    "static/js/2.d9cc7207.chunk.js.LICENSE.txt": "/App-fetch-CRA/static/js/2.d9cc7207.chunk.js.LICENSE.txt",
+    "static/css/main.c03bb1b5.chunk.css.map": "/App-fetch-CRA/static/css/main.c03bb1b5.chunk.css.map",
+    "static/js/2.b46c92da.chunk.js.LICENSE.txt": "/App-fetch-CRA/static/js/2.b46c92da.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/App-fetch-CRA/static/media/logo.0db60869.png",
+    "static/media/ship1.png": "/App-fetch-CRA/static/media/ship1.ffdf6fda.png",
+    "static/media/ship2.png": "/App-fetch-CRA/static/media/ship2.a5f4bba6.png",
+    "static/media/ship3.png": "/App-fetch-CRA/static/media/ship3.8149544a.png",
+    "static/media/star.png": "/App-fetch-CRA/static/media/star.dae2fb9c.png",
     "static/media/index.css": "/App-fetch-CRA/static/media/tlo.23e2b6cf.png"
   },
   "entrypoints": [
     "static/js/runtime-main.18c7f1bf.js",
-    "static/js/2.d9cc7207.chunk.js",
-    "static/css/main.750db44e.chunk.css",
-    "static/js/main.466d0864.chunk.js"
+    "static/js/2.b46c92da.chunk.js",
+    "static/css/main.c03bb1b5.chunk.css",
+    "static/js/main.2242a36a.chunk.js"
   ]
 }

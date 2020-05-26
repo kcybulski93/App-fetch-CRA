@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/App-fetch-CRA/static/css/main.03958ffa.chunk.css",
+    "main.css": "/App-fetch-CRA/static/css/main.ecd0ac27.chunk.css",
     "main.js": "/App-fetch-CRA/static/js/main.8cc021ed.chunk.js",
     "main.js.map": "/App-fetch-CRA/static/js/main.8cc021ed.chunk.js.map",
     "runtime-main.js": "/App-fetch-CRA/static/js/runtime-main.18c7f1bf.js",
@@ -8,9 +8,9 @@
     "static/js/2.b46c92da.chunk.js": "/App-fetch-CRA/static/js/2.b46c92da.chunk.js",
     "static/js/2.b46c92da.chunk.js.map": "/App-fetch-CRA/static/js/2.b46c92da.chunk.js.map",
     "index.html": "/App-fetch-CRA/index.html",
-    "precache-manifest.ab183ca7f3e6fe14d095ce3d73d01db7.js": "/App-fetch-CRA/precache-manifest.ab183ca7f3e6fe14d095ce3d73d01db7.js",
+    "precache-manifest.2fdc659a0d53dfdeea857d4e3d322b47.js": "/App-fetch-CRA/precache-manifest.2fdc659a0d53dfdeea857d4e3d322b47.js",
     "service-worker.js": "/App-fetch-CRA/service-worker.js",
-    "static/css/main.03958ffa.chunk.css.map": "/App-fetch-CRA/static/css/main.03958ffa.chunk.css.map",
+    "static/css/main.ecd0ac27.chunk.css.map": "/App-fetch-CRA/static/css/main.ecd0ac27.chunk.css.map",
     "static/js/2.b46c92da.chunk.js.LICENSE.txt": "/App-fetch-CRA/static/js/2.b46c92da.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/App-fetch-CRA/static/media/logo.0db60869.png",
     "static/media/ship1.png": "/App-fetch-CRA/static/media/ship1.ffdf6fda.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.18c7f1bf.js",
     "static/js/2.b46c92da.chunk.js",
-    "static/css/main.03958ffa.chunk.css",
+    "static/css/main.ecd0ac27.chunk.css",
     "static/js/main.8cc021ed.chunk.js"
   ]
 }

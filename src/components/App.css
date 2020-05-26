@@ -813,42 +813,42 @@
   html .ship1 {
     top: 65vh;
     width: 1050px;
-    animation: flightOfTheFirstShip 75s linear infinite both;
+    animation: flightOfTheFirstShip 90s linear infinite both;
   }
 
   html .ship2 {
     top: 55vh;
     width: 60px;
-    animation: flightOfTheSecondShip 75s linear infinite both;
+    animation: flightOfTheSecondShip 90s linear infinite both;
   }
 
   html .ship3 {
     width: 60px;
-    animation: flightOfTheThirdShip 75s linear infinite both;
+    animation: flightOfTheThirdShip 90s linear infinite both;
   }
 
   html .star1 {
     top: 40vh;
     width: 75px;
-    animation: firstStarFlash 75s linear infinite both;
+    animation: firstStarFlash 90s linear infinite both;
   }
 
   html .star2 {
     top: 24vh;
     width: 75px;
-    animation: secondStarFlash 75s linear infinite both;
+    animation: secondStarFlash 90s linear infinite both;
   }
 
   html .star3 {
     top: 80vh;
     width: 75px;
-    animation: thirdStarFlash 75s linear infinite both;
+    animation: thirdStarFlash 90s linear infinite both;
   }
 
   html .star4 {
     top: 60vh;
     width: 75px;
-    animation: fourthStarFlash 75s linear infinite both;
+    animation: fourthStarFlash 90s linear infinite both;
   }
 
   html .star5 {

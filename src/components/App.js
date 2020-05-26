@@ -5,6 +5,10 @@ import CharactersPage from "./CharactersPage";
 import CharacterDetailsPage from "./CharacterDetailsPage";
 import ErrorPage from "./ErrorPage";
 import "./ErrorPage.css";
+import star from "../img/star.png";
+import ship1 from "../img/ship1.png";
+import ship2 from "../img/ship2.png";
+import ship3 from "../img/ship3.png";
 
 const API_END_POINT = "https://swapi.dev/api/people/";
 
@@ -116,6 +120,16 @@ class App extends Component {
             />
             <Route component={ErrorPage} />
           </Switch>
+          <img src={star} alt="star" className="star1" />
+          <img src={star} alt="star" className="star2" />
+          <img src={star} alt="star" className="star3" />
+          <img src={star} alt="star" className="star4" />
+          <img src={star} alt="star" className="star5" />
+          <img src={star} alt="star" className="star6" />
+          <img src={star} alt="star" className="star7" />
+          <img src={ship1} alt="star wars ship 1" className="ship1" />
+          <img src={ship2} alt="star wars ship 2" className="ship2" />
+          <img src={ship3} alt="star wars ship 3" className="ship3" />
         </div>
       </Router>
     );

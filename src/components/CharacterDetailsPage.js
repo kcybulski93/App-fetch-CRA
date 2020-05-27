@@ -29,7 +29,7 @@ class CharacterDetailsPage extends Component {
       eye_color,
     } = this.state.data;
     return (
-      <>
+      <div className="detailsPageWrapper">
         <div className="detailsWrapper">
           <div className="text">Name:</div>
           <div className="data">{name}</div>
@@ -51,7 +51,7 @@ class CharacterDetailsPage extends Component {
         <Link className="returnWrapper" to="/">
           <i className="fas fa-undo-alt" id="return"></i>
         </Link>
-      </>
+      </div>
     );
   }
 }

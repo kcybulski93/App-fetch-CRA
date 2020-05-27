@@ -1,5 +1,11 @@
+.detailsPageWrapper {
+  position: relative;
+  height: 100vh;
+}
+
 .detailsWrapper {
   position: absolute;
+  top: 0px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -60%);
@@ -7,7 +13,6 @@
   font-size: 1.4rem;
   flex-wrap: wrap;
   width: 300px;
-  margin: 0 auto;
   align-items: center;
 }
 

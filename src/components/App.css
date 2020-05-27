@@ -518,7 +518,7 @@
   }
 
   html .App {
-    height: 200vh;
+    height: auto;
   }
 
   html .charactersPageWrapper {
@@ -564,8 +564,13 @@
     vertical-align: 1px;
   }
 
+  html .detailsPageWrapper {
+    position: relative;
+    height: 100vh;
+  }
+
   html .text {
-    line-height: 50px;
+    line-height: 35px;
     width: 40%;
     padding-left: 0px;
   }
@@ -579,7 +584,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -76%);
+    transform: translate(-50%, -50%);
     width: 400px;
   }
 
@@ -658,9 +663,14 @@
     width: 26px;
   }
 
+  html .detailsPageWrapper {
+    position: relative;
+    height: 100vh;
+  }
+
   html .text {
     width: 35%;
-    line-height: 56px;
+    line-height: 40px;
   }
 
   html .data {
@@ -679,7 +689,7 @@
 
 @media (min-width: 731px) and (orientation: landscape) {
   html .text {
-    line-height: 62px;
+    line-height: 45px;
   }
 }
 
